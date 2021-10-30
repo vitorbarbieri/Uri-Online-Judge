@@ -4,11 +4,11 @@ public class Program
 {
     public static void Main()
     {
-        int a = int.Parse(Console.ReadLine());
-        int b = int.Parse(Console.ReadLine());
+        int A = int.Parse(Console.ReadLine());
+        int B = int.Parse(Console.ReadLine());
 
-        int x = a + b;
+        int X = A + B;
 
-        Console.WriteLine("X = " + x);
+        Console.WriteLine("X = " + X);
     }
 }
