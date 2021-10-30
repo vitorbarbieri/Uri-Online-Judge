@@ -1,14 +1,14 @@
 using System;
+using System.Globalization;
 
 public class Program
 {
     public static void Main()
     {
-        int a = int.Parse(Console.ReadLine());
-        int b = int.Parse(Console.ReadLine());
+        double raio = double.Parse(Console.ReadLine());
 
-        int x = a + b;
+        double area = 3.14159 * Math.Pow(raio, 2);
 
-        Console.WriteLine("X = " + x);
+        Console.WriteLine("A=" + area.ToString("F4", CultureInfo.InvariantCulture));
     }
 }
