@@ -23,6 +23,6 @@ public class Program
 
         total = qt1 * vl1 + qt2 * vl2;
 
-        Console.WriteLine("VALOR A PAGAR: R$ " + total.ToString("F2", CultureInfo.InvariantCulture));
+        Console.WriteLine("VALOR A PAGAR: R$ " + total.ToString("F2"));
     }
 }
