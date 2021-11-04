@@ -4,6 +4,12 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine("Hello World!");        
+        int dist, tTotal;
+
+        dist = int.Parse(Console.ReadLine());
+
+        tTotal = dist * 2;
+
+        Console.WriteLine(tTotal + " minutos");     
     }
 }
