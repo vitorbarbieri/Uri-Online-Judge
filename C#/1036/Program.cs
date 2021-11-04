@@ -25,8 +25,8 @@ public class Program
         }
         else
         {
-            Console.WriteLine("R1 = " + r1.ToString("F5", CultureInfo.InvariantCulture));
-            Console.WriteLine("R2 = " + r2.ToString("F5", CultureInfo.InvariantCulture));
+            Console.WriteLine("R1 = " + r1.ToString("F5"));
+            Console.WriteLine("R2 = " + r2.ToString("F5"));
         }
     }
 }
