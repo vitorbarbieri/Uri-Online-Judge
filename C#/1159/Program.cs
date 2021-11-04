@@ -4,7 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        int num = int.Parse(Console.ReadLine()), total = 0;
+        int num = int.Parse(Console.ReadLine());
 
         while (num != 0)
         {
@@ -12,12 +12,7 @@ public class Program
             {
                 num += 1;
             }
-            total = 0;
-            for (int i = 1; i <= 5; i++)
-            {
-                total += num;
-                num = num + 2;
-            }
+            int total = num + (num + 2) + (num + 4) + (num + 6) + (num + 8);
             Console.WriteLine(total);
             num = int.Parse(Console.ReadLine());
         }
