@@ -8,10 +8,7 @@ public class Program
 
         for (int i = 1; i <= n1; i++)
         {
-            int n2 = i * i;
-            int n3 = i * i * i;
-            Console.WriteLine(i + " " + n2 + " " + n3);
-            Console.WriteLine(i + " " + (n2 + 1) + " " + (n3 + 1));
+            Console.WriteLine(i + " " + (Math.Pow(i,2)) + " " + (Math.Pow(i,3)));
         }
     }
 }
