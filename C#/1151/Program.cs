@@ -4,10 +4,7 @@ public class Program
 {
     public static void Main()
     {
-        int n = int.Parse(Console.ReadLine());
-        int anterior1, anterior2;
-        anterior1 = 0;
-        anterior2 = 1;
+        int n = int.Parse(Console.ReadLine()), anterior1 = 0, anterior2 = 1; ;
 
         for (int i = 0; i < n; i++)
         {
